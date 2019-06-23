@@ -27,6 +27,8 @@ sudo dnf install chromium -y
 sudo dnf install youtube-dl -y
 sudo dnf install gparted -y
 sudo dnf install obs-studio -y
+snap install speedtest-cli
+
 
 #gaming
 sudo dnf install steam -y
