@@ -28,8 +28,7 @@ sudo dnf install youtube-dl -y
 sudo dnf install gparted -y
 sudo dnf install obs-studio -y
 snap install speedtest-cli
-
+sudo dnf install p7zip.x86_64 p7zip-gui.x86_64 -y
 
 #gaming
 sudo dnf install steam -y
-
