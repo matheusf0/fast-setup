@@ -32,3 +32,6 @@ sudo dnf install p7zip.x86_64 p7zip-gui.x86_64 -y
 
 #gaming
 sudo dnf install steam -y
+
+#img editors
+sudo dnf install krita.x86_64 -y
