@@ -5,7 +5,7 @@ sudo dnf update -y
 sudo dnf upgrade -y
 
 #packages
-sudo dnf install snapd
+sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
 #dev tools
