@@ -1,0 +1,10 @@
+#!/bin/bash
+curl https://z1t9ooposg.execute-api.us-east-1.amazonaws.com/dev 2>/dev/null > .myip.txt
+export myip=$(cat .myip.txt)
+echo "External IP:" $myip
+#aws ec2 authorize-security-group-ingress \
+#    --group-id gs-XXXXXXXXXXXXXXXX \
+#    --protocol tcp \
+#    --port 22 \
+#    --cidr $myip/32
+rm .myip.txt
